@@ -6,11 +6,13 @@
 }
 
 body {
-    background-color: #8BC6EC;
-    background-image: linear-gradient(135deg, #8BC6EC 0%, #9599E2 33%, #050505 66%, #084a5e 100%);
-    
-
+    background-image: url('yourpath.jpg'); /* Replace with the actual path to your image */
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
+
 
 .container {
     width: 100%;
